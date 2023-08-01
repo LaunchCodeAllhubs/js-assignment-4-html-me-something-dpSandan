@@ -1,1 +1,93 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color: whitesmoke;
+    
+}
+
+header {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    color: aliceblue;
+    background-image: url(https://cdn.wallpaperdirect.com/asset/img/product/93418/tiled/cole-and-son-palm-jungle-black-wallpaper-tiled-093418.jpg);
+    text-align: center;
+    padding: 0px 0px 25px;
+}
+
+#intro {
+    padding: 30px 80px;
+}
+
+nav ul {
+    padding: 0px 0px 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+    list-style-type: none;
+    text-align: center;
+    background: rgba(0, 128, 0, 0.3);
+}
+
+a:link {
+    text-decoration: none;
+    color:rgb(41, 95, 143)
+}
+a:visited {
+    color:rgb(54, 74, 94)
+}
+
+figure {
+    text-align: center;
+}
+figcaption {
+    font-size: 1.1em;
+}
+
+hr {
+    height: .3em;
+    background-color: rgba(193, 226, 235, 0.356);
+    border: none;
+}
+
+article {
+    padding: 30px 80px;
+}
+
+section {
+    padding: 15px ;
+}
+
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+}
+#right {
+    float: right;
+    margin-left: 20px;
+    width: 600px;
+    height: 350px;
+    padding: 0px 80px;
+}
+.bordered {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    border-color: rgba(193, 226, 235, 0.356);
+}
+footer {
+    background-image: url(https://cdn.wallpaperdirect.com/asset/img/product/93418/tiled/cole-and-son-palm-jungle-black-wallpaper-tiled-093418.jpg);
+}
+
+
+
+#mainHeading {
+    color: red;
+    margin: 0px;
+}
+.funParagraph {
+    color: green;
+    margin: 0px;
+}
